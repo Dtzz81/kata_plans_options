@@ -12,9 +12,9 @@ Discount: 50% on public transport and cable cars
 __Tourist Pass__
 
 Costs:
-- £220 for 3 days
-- £300 for 4 days
-- £330 for 6 days
+- £278 for 3 days
+- £336 for 4 days
+- £431 for 6 days
 Validity: As specified above
 Benefits:
 - Free travel on buses and trains
