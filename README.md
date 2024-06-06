@@ -60,5 +60,32 @@ Implement a function that compares the total costs of travel under the three sce
 The function should return the total costs for each scenario.
 
 
+Example:
 
+```python
+# Arrange
+itinerary = [
+    {
+        "type": "TRAIN",
+        "journey": "Geneva - Zermatt"
+        "price": 55,
+    },
+    {
+        "type": "CABLE",
+        "journey": "Zermatt - Cervinia single ride",
+        "price": 100
+    }
+]
 
+# Act
+output = calculate_cost(itinerary)
+
+# Assert
+output == {
+    "no_pass": 150,
+    "half_fare_pass": 120+75,
+    "tourist_pass": 431+75
+}
+```
+
+# public interface - how we present format of data, keep it robust and resilient. Spend time working out what the public interface shuld look like
